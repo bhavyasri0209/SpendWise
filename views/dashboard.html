@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SpendWise - Expense Tracker</title>
+    <link rel="stylesheet" href="../css/spendwise.css">
+</head>
+
+<body>
+
+<header>
+    <h1>SpendWise</h1>
+    <p>Smart Personal Expense Manager</p>
+</header>
+
+<div class="container">
+
+    <div class="summary">
+        <div class="card">
+            <h3>Total Expense</h3>
+            <h2 id="totalExpense">₹0</h2>
+        </div>
+
+        <div class="card">
+            <h3>Number of Expenses</h3>
+            <h2 id="expenseCount">0</h2>
+        </div>
+    </div>
+
+    <div class="form-box">  
+
+        <h2 id="formTitle">Add Expense</h2>
+
+        <input type="text" id="title" placeholder="Expense title">
+
+        <input type="number" id="amount" placeholder="Amount">
+
+        <select id="category">
+            <option value="">Select Category</option>
+            <option>Food</option>
+            <option>Travel</option>
+            <option>Shopping</option>
+            <option>Bills</option>
+            <option>Entertainment</option>
+            <option>Education</option>
+            <option>Other</option>
+        </select>
+
+        <input type="date" id="date">
+
+        <button id="saveButton">Add Expense</button>
+
+    </div>
+
+    <div class="filters">
+
+        <input type="text" id="search" placeholder="Search expense">
+
+        <select id="filterCategory">
+            <option value="">All Categories</option>
+            <option>Food</option>
+            <option>Travel</option>
+            <option>Shopping</option>
+            <option>Bills</option>
+            <option>Entertainment</option>
+            <option>Education</option>
+            <option>Other</option>
+        </select>
+
+    </div>
+
+    <div id="expenseList"></div>
+
+</div>
+
+<script type="module" src="../js/controller.js"></script>
+
+</body>
+</html>
