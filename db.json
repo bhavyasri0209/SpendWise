@@ -1,0 +1,233 @@
+{
+  "users": [
+    {
+      "id": "user1",
+      "name": "Bhavya Sri",
+      "email": "bhavya@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "user2",
+      "name": "Demo User",
+      "email": "demo@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "nh2y1jfYkA0",
+      "name": "Durga Naga Lakshmi",
+      "email": "nandu02@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "C2JCal7bHM8",
+      "name": "Durga Naga Lakshmi",
+      "email": "nanduu02@gmail.com",
+      "password": "147852"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "expense2",
+      "userId": "user1",
+      "title": "Bus Pass",
+      "amount": 500,
+      "category": "Travel",
+      "date": "2026-09-21",
+      "description": "Monthly college travel"
+    },
+    {
+      "id": "expense3",
+      "userId": "user1",
+      "title": "ML Record",
+      "amount": 150,
+      "category": "Education",
+      "date": "2026-09-20",
+      "description": "Machine Learning record book"
+    },
+    {
+      "id": "expense4",
+      "userId": "user1",
+      "title": "USB Drive",
+      "amount": 450,
+      "category": "Technology",
+      "date": "2026-09-19",
+      "description": "USB drive for project files"
+    },
+    {
+      "id": "expense5",
+      "userId": "user1",
+      "title": "Movie with Friends",
+      "amount": 300,
+      "category": "Entertainment",
+      "date": "2026-09-18",
+      "description": "Weekend movie"
+    },
+    {
+      "id": "expense6",
+      "userId": "user2",
+      "title": "Dinner",
+      "amount": 250,
+      "category": "Food & Mess",
+      "date": "2026-09-22",
+      "description": "Dinner"
+    },
+    {
+      "id": "IMh8j5-cCc0",
+      "userId": "user1",
+      "title": "drinks and puffs",
+      "amount": 500,
+      "category": "Food & Mess",
+      "date": "2026-09-22",
+      "description": "morning break"
+    },
+    {
+      "id": "qzjcmy4c784",
+      "userId": "user1",
+      "title": "drinks",
+      "amount": 100,
+      "category": "Food & Mess",
+      "date": "2026-09-23",
+      "description": ""
+    },
+    {
+      "id": "kcf9elrkZt4",
+      "userId": "user1",
+      "title": "drinks",
+      "amount": 100,
+      "category": "Food & Mess",
+      "date": "2026-11-01",
+      "description": ""
+    },
+    {
+      "id": "p1PPFJusFJ0",
+      "userId": "user1",
+      "title": "movie",
+      "amount": 500,
+      "category": "Entertainment",
+      "date": "2026-11-04",
+      "description": ""
+    },
+    {
+      "id": "AqEOJ5hY8Oc",
+      "userId": "user1",
+      "title": "b day shopping",
+      "amount": 1000,
+      "category": "Shopping",
+      "date": "2026-11-04",
+      "description": ""
+    },
+    {
+      "id": "UoKJsiYIXD0",
+      "userId": "user1",
+      "title": "biryani",
+      "amount": 270,
+      "category": "Food & Mess",
+      "date": "2026-11-04",
+      "description": ""
+    }
+  ],
+  "budgets": [
+    {
+      "userId": "user1",
+      "monthlyLimit": 6000,
+      "id": "budget1"
+    },
+    {
+      "id": "budget2",
+      "userId": "user2",
+      "monthlyLimit": 4000
+    }
+  ],
+  "categoryLimits": [
+    {
+      "id": "limit1",
+      "userId": "user1",
+      "category": "Food & Mess",
+      "limit": 2000
+    },
+    {
+      "id": "limit2",
+      "userId": "user1",
+      "category": "Travel",
+      "limit": 1000
+    },
+    {
+      "id": "limit3",
+      "userId": "user1",
+      "category": "Education",
+      "limit": 1000
+    },
+    {
+      "id": "limit4",
+      "userId": "user1",
+      "category": "Technology",
+      "limit": 500
+    },
+    {
+      "id": "limit5",
+      "userId": "user1",
+      "category": "Shopping",
+      "limit": 500
+    },
+    {
+      "id": "limit6",
+      "userId": "user1",
+      "category": "Entertainment",
+      "limit": 500
+    },
+    {
+      "id": "limit7",
+      "userId": "user1",
+      "category": "Hostel",
+      "limit": 1000
+    },
+    {
+      "id": "limit8",
+      "userId": "user1",
+      "category": "Bills",
+      "limit": 500
+    },
+    {
+      "id": "limit9",
+      "userId": "user1",
+      "category": "Other",
+      "limit": 500
+    },
+    {
+      "id": "limit10",
+      "userId": "user2",
+      "category": "Food & Mess",
+      "limit": 1500
+    }
+  ],
+  "savingsGoals": [
+    {
+      "id": "goal1",
+      "userId": "user1",
+      "name": "Buy Headphones",
+      "targetAmount": 3000,
+      "savedAmount": 2500,
+      "targetDate": "2026-11-30",
+      "description": "Save money to buy new headphones"
+    },
+    {
+      "id": "goal2",
+      "userId": "user1",
+      "name": "Weekend Trip",
+      "targetAmount": 8000,
+      "savedAmount": 2500,
+      "targetDate": "2027-01-15",
+      "description": "Savings for a trip with friends"
+    },
+    {
+      "id": "goal3",
+      "userId": "user2",
+      "name": "New Watch",
+      "targetAmount": 5000,
+      "savedAmount": 1000,
+      "targetDate": "2027-02-01",
+      "description": "Save for a new watch"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
